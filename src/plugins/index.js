@@ -5,9 +5,11 @@
  */
 
 const { getUUID } = require("../plugins/uuid.plugin");
+const { httpAxios } = require("../plugins/axios.plugin");
 const { httpClientPlugin } = require("../plugins/http-client.plugin");
 
 module.exports = {
   getUUID,
+  httpAxios,
   httpClientPlugin,
 };

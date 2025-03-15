@@ -69,3 +69,6 @@
  * ------------------------
  */
 
+const { getPokemon } = require("./js-foundation/07-axios");
+
+getPokemon(4).then((pokemon) => console.log({ pokemon }));
