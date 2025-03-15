@@ -1,0 +1,21 @@
+{
+  "name": "bases",
+  "version": "0.0.1",
+  "description": "Aplicación en NODE JS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon node src/server.js"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Rjchi",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "uuid": "^11.1.0"
+  }
+}
