@@ -50,8 +50,22 @@
  * ----------------------
  */
 
-const { getPokemonById } = require("./js-foundation/06-async-await");
+// const {
+//   getPokemonById,
+//   getPokemonById_,
+// } = require("./js-foundation/06-async-await");
 
-getPokemonById(2)
-  .then((pokemon) => console.log({ pokemon }))
-  .catch((err) => console.log(`Hubo un error: ${err}`));
+// getPokemonById(2)
+//   .then((pokemon) => console.log({ pokemon }))
+//   .catch((err) => console.log(`Hubo un error: ${err}`));
+
+// getPokemonById_(2)
+//   .then((pokemon) => console.log({ pokemon }))
+//   .catch((err) => console.log(`Hubo un error: ${err}`));
+
+/**
+ * ------------------------
+ * * AXIOS
+ * ------------------------
+ */
+

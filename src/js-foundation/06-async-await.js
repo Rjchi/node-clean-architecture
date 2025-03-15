@@ -14,6 +14,23 @@ const getPokemonById = async (id) => {
   return pokemon.name;
 };
 
+/**
+ * --------------------------------------------------
+ * * Aqui utilizamos el FETCH API desde /plugins
+ * --------------------------------------------------
+ */
+
+const { httpClientPlugin } = require("../plugins");
+
+const getPokemonById_ = async (id) => {
+  const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
+
+  const pokemon = await httpClientPlugin.get(url);
+
+  return pokemon.name + " FETCH API";
+};
+
 module.exports = {
   getPokemonById,
+  getPokemonById_,
 };
