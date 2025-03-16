@@ -72,3 +72,16 @@
 // const { getPokemon } = require("./js-foundation/07-axios");
 
 // getPokemon(4).then((pokemon) => console.log({ pokemon }));
+
+/**
+ * ------------------------
+ * * LOGGER - WINSTON
+ * ------------------------
+ */
+
+const { buildLogger } = require("./plugins");
+
+/** server.js es el archivo/servicio que estoy mandando a llamar */
+const logger = buildLogger("server.js");
+
+logger.log("Hola mundo")

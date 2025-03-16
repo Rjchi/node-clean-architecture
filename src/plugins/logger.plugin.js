@@ -19,6 +19,15 @@ const logger = winston.createLogger({
   ],
 });
 
+/**
+ * ! Aqui indicamos que vamos a imprimir los logs en consola
+ */
+logger.add(
+  new winston.transports.Console({
+    format: winston.format.simple(),
+  })
+);
+
 module.exports = function buildLogger(service) {
   return {
     log: (msg) => {
