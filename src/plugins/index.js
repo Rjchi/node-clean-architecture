@@ -8,8 +8,11 @@ const { getUUID } = require("../plugins/uuid.plugin");
 const { httpAxios } = require("../plugins/axios.plugin");
 const { httpClientPlugin } = require("../plugins/http-client.plugin");
 
+const buildLogger = require("../plugins/logger.plugin");
+
 module.exports = {
   getUUID,
   httpAxios,
+  buildLogger,
   httpClientPlugin,
 };
