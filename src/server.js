@@ -79,10 +79,10 @@
  * ------------------------
  */
 
-const { buildLogger } = require("./plugins");
+// const { buildLogger } = require("./plugins");
 
 /** server.js es el archivo/servicio que estoy mandando a llamar */
-const logger = buildLogger("server.js");
+// const logger = buildLogger("server.js");
 
-logger.log("Hola mundo")
-logger.error("Esto es algo malo")
+// logger.log("Hola mundo")
+// logger.error("Esto es algo malo")
