@@ -4,8 +4,9 @@
   "description": "Proyecto en NODE JS con TypeScript",
   "main": "app.ts",
   "scripts": {
-    "start": "node src/app",
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "build": "rimraf ./dist && tsc",
+    "start": "npm run build && node dist/app.js"
   },
   "keywords": [
     "nodejs",
