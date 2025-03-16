@@ -1,7 +1,9 @@
 /**
  * * Este logger lo utilizamos para hacer seguimiento a todos los
  * * logs que se puedan generar en mi aplicación, es muy util
- * * particularmente en producción
+ * * particularmente en producción.
+ *
+ * NOTA: Los archivos que se generan no se suben a github
  */
 
 const winston = require("winston");
