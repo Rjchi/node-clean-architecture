@@ -1,0 +1,20 @@
+{
+  "name": "typescript",
+  "version": "0.0.1",
+  "description": "Proyecto en NODE JS con TypeScript",
+  "main": "app.ts",
+  "scripts": {
+    "start": "node src/app.ts",
+    "start:dev": "nodemon src/app.ts"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript"
+  ],
+  "author": "Rjchi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  }
+}
