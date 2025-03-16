@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "nodemon node src/server.js"
+    "dev": "nodemon node src/server.js",
+    "start:dev": "nodemon node src-dos/server.js"
   },
   "keywords": [
     "nodejs"
