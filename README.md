@@ -5,7 +5,7 @@
 Primero, instala las dependencias necesarias:
 
 ```bash
-npm install nodemon -D
+npm install -D nodemon
 ```
 
 Para ejecutar la aplicación en modo desarrollo:
